@@ -10,6 +10,6 @@ async function writeAdvice() {
   const res = await fetch("https://api.adviceslip.com/advice");
   const data = await res.json();
 
-  quoteElement.innerText - data.slip.advice;
+  quoteElement.innerText = data.slip.advice;
   quoteIdElement.innerText = data.slip.id;
 }
