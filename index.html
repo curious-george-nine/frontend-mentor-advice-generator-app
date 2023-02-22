@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advice Generator App</title>
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <div class="advice-box">
+      <div class="advice-id">
+        advice #<span id="adviceId">117</span>
+      </div>
+      <div class="advice-quote" id="adviceQuote">
+        "It is easy to sit up and take notice, what's difficult is getting up and taking
+        action."
+      </div>
+      <div class="advice-pattern-divider">
+        <picture>
+          <source media="(min-width: 1440px)"
+            srcset="./images/pattern-divider-desktop.svg">
+          <img src="./images/pattern-divider-mobile.svg" alt="">
+        </picture>
+      </div>
+      <button class="advice-roll" id="rollButton">
+        <img src="./images/icon-dice.svg" />
+      </button>
+    </div>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
